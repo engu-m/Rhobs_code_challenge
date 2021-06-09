@@ -16,8 +16,9 @@ The code written in `mission.py` has 3 purposes :
 
 ## Results
 
-Results to each assignment are as follow :
-1.
+Results for each assignment is shown below :
+
+ 1.
  ```javascript
  {'country': 18971,
  'blues': 20817,
@@ -33,6 +34,8 @@ Results to each assignment are as follow :
  'eurodance': 23487,
  'classical': 21306}
  ```
+ Thus 321 545 "music x listeners" for 82 816 unique listeners.
+ So on average, each listener listens to 3.9 differents kinds of music.
  
  2.
  ```javascript
@@ -50,4 +53,12 @@ Results to each assignment are as follow :
  'eurodance': 39,
  'classical': 47}
  ```
+ Metal and gabber are "young" musics whereas blues is somewhat older.
  
+ 3.
+
+| ![Blin - 3](https://github.com/engu-m/Rhobs_code_challenge/blob/main/Blin%20-%203%20ans.png) | ![Foucher - 10](https://github.com/engu-m/Rhobs_code_challenge/blob/main/Foucher%20-%2010%20ans.png) |
+|-----|-----|
+| ![Saint Thibaut - 5](https://github.com/engu-m/Rhobs_code_challenge/blob/main/Saint%20Thibaut%20-%205%20ans.png) | ![Sainte Corinne - 7](https://github.com/engu-m/Rhobs_code_challenge/blob/main/Sainte%20Corinne%20-%207%20ans.png) |
+ 
+ Hence, the city does not change much the overall shape of the population pyramid.
