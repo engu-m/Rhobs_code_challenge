@@ -125,3 +125,6 @@ dmypy.json
 
 # VS Code
 /.vscode
+
+# credentials secret file
+credentials.json
