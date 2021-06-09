@@ -37,32 +37,13 @@ def dico_nb_listener() :
                 res[genre] = 1
     return res
 
-# final_dic_nb_listeners = dico_nb_listener()
+final_dic_nb_listeners = dico_nb_listener()
 
 def nb_listener(genre, final_dic) :
     if genre in final_dic :
         return final_dic[genre]
     else :
         return "Pas de nombre moyen d'auditeurs car ce genre n'est pas connu"
-
-# Résultat : 
-# final_dic_nb_listeners =
-# {'country': 18971,
-#  'blues': 20817,
-#  'hiphop': 28043,
-#  'metal': 27774,
-#  'rock': 34472,
-#  'disco': 34297,
-#  'pop': 32249,
-#  'reggae': 19127,
-#  'jazz': 24304,
-#  'gabber': 18525,
-#  'trance': 18173,
-#  'eurodance': 23487,
-#  'classical': 21306}
-# 
-# Soit 321545 genre-auditeurs pour 82816
-# donc 321545/82816 ~= 3.9 genres écoutés par personne en moyenne
 
 ## 1. The average age by music. 
 def dico_average_age() :
@@ -111,31 +92,13 @@ def convert_dico(dico) :
     new_dic = {genre:normalize(dic) for genre, dic in dico.items()}
     return new_dic
 
-# final_dic_average_ages = convert_dico(dico_average_age())
+final_dic_average_ages = convert_dico(dico_average_age())
 
 def average_age(genre, final_dic) :
     if genre in final_dic :
         return final_dic[genre]
     else :
         return "Pas d'âge moyen car ce genre n'est pas connu"
-
-# Résultat :
-#
-# final_dic_average_ages
-# {'country': 42,
-#  'blues': 50,
-#  'hiphop': 39,
-#  'metal': 38,
-#  'rock': 43,
-#  'disco': 43,
-#  'pop': 41,
-#  'reggae': 39,
-#  'jazz': 47,
-#  'gabber': 38,
-#  'trance': 40,
-#  'eurodance': 39,
-#  'classical': 47}
-
 
 ## 2. The population pyramid
 
@@ -180,6 +143,3 @@ def plot_pyramid(city, slice) :
     plt.savefig(f'{city} - {slice} ans.png')
 
 plot_pyramid('Blin',3)
-plot_pyramid('Foucher',10)
-plot_pyramid('Saint Thibaut',5)
-plot_pyramid('Sainte Corinne',7)
