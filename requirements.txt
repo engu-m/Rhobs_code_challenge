@@ -1,5 +1,4 @@
 pymongo
-urllib
 pandas
 numpy
 matplotlib

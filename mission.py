@@ -134,7 +134,7 @@ def dataframe_pyramid(city) :
     age_max = max(df.index)
     for age in range(age_max) :
         if age not in df.index : 
-            df.loc[x,'Population'] = 0
+            df.loc[age,'Population'] = 0
     return df
 
 def plot_pyramid(city, slice) :

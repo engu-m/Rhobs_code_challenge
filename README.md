@@ -4,7 +4,7 @@ The goal of this project is to compute some metrics on some external sample data
 
 ## Installation
 
-To install the project, clone the repository on your local machine, create a python virtual environment, then run in the working directory the following command : `pip install requirements.txt`.
+To install the project, clone the repository on your local machine, create a python virtual environment, then run in the working directory the following command : `pip install -r requirements.txt` (`pip` is the one from your virtual environment in `venv/Scripts/`).
 To connect to the database, you will have to fill in the file `credentials.json` with relevant information given by the company RHOBS.
 
 ## Assignments
@@ -34,7 +34,7 @@ Results for each assignment is shown below :
  'eurodance': 23487,
  'classical': 21306}
  ```
- Thus 321 545 "music x listeners" for 82 816 unique listeners.
+ Thus 321 545 "music * listeners" for 82 816 unique listeners.
  So on average, each listener listens to 3.9 differents kinds of music.
  
  2.
